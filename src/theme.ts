@@ -1,13 +1,17 @@
 import { createTheme } from "@mui/material/styles";
-import { green } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
+    common: {
+      black: "#000",
+      white: "#fff",
+    },
     primary: {
-      main: green.A700,
+      main: "#D64227",
     },
     secondary: {
-      main: "#ff6666",
+      main: "#010A15",
+      light: "#FBF9F2",
     },
   },
 });

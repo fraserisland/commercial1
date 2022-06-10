@@ -12,4 +12,4 @@ npm i && npm run dev
 
 ### Site
 
-- commercial1-p3t8e7j7e-fraserisland.vercel.app
+- https://commercial1.vercel.app/

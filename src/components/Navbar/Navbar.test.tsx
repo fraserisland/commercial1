@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 describe("Navbar", () => {
   it("renders", () => {
     render(<Navbar />);
+
     expect(screen.getByText("navbar")).toBeInTheDocument();
   });
 });
