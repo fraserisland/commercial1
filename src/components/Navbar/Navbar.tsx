@@ -18,12 +18,15 @@ import MenuItem from "@mui/material/MenuItem";
 import { StayPrimaryLandscape } from "@mui/icons-material";
 import Link from "next/link";
 
-const pages = [{ title: "about", link: "/about" },{ title: "home", link:"/"}];
+const pages = [
+  { title: "about", link: "/about" },
+  { title: "home", link: "/" },
+];
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
+  const handleOpenNavMenu = (event: any) => {
     setAnchorElNav(event.currentTarget);
   };
 
