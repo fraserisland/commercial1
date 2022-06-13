@@ -1,6 +1,7 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
+
   palette: {
     common: {
       black: "#000",
@@ -14,6 +15,13 @@ const theme = createTheme({
       light: "#FBF9F2",
     },
   },
+
+  typography: {
+    fontFamily: 'Lexend'
+  },
+
+
+
 });
 
 export default theme;
