@@ -4,9 +4,15 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Navbar } from "../src/components/Navbar";
 
+
 const Home: NextPage = () => {
   return (
+    
+    
     <Container maxWidth="lg">
+
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Lexend:wght@300&display=swap" rel="stylesheet"/>
+
       <Navbar />
 
       <Box
