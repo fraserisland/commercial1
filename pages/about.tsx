@@ -2,13 +2,10 @@ import * as React from "react";
 import type { NextPage } from "next";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import { Navbar } from "../src/components/Navbar";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <Container maxWidth="lg">
-    
-
 
       <Box
         sx={{
@@ -20,10 +17,10 @@ const Home: NextPage = () => {
           backgroundColor: "primary.main",
         }}
       >
-        asdasd
+        niggers
       </Box>
     </Container>
   );
 };
 
-export default Home;
+export default About;

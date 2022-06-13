@@ -20,6 +20,10 @@ const theme = createTheme({
     fontFamily: 'Lexend'
   },
 
+  // h5: {
+  //   font
+  // }
+
 
 
 });

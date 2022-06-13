@@ -11,6 +11,10 @@ export default class MyDocument extends Document {
         <Head>
           <meta name="theme-color" content={theme.palette.primary.main} />
           <link rel="shortcut icon" href="/static/favicon.ico" />
+          <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Lexend:wght@300&display=swap"
+        rel="stylesheet"
+      />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
           {(this.props as any).emotionStyleTags}
         </Head>
